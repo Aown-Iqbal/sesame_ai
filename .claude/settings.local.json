@@ -10,7 +10,9 @@
       "Bash(pip list *)",
       "Bash(python -c \"from sesame_ai import SesameAI, SesameWebSocket, TokenManager; print\\('Imports OK'\\)\")",
       "Bash(python -c \"from sesame_ai.audio_utils import compress_silence, extract_longest_utterance; print\\('audio_utils OK'\\)\")",
-      "Bash(python examples/speak_and_capture.py --help)"
+      "Bash(python examples/speak_and_capture.py --help)",
+      "Bash(python -c \"from sesame_ai import run_pipeline, write_wav, wav_to_mp3; print\\('imports OK'\\)\")",
+      "Bash(python examples/speak_and_capture.py \"Hello\" --out test_cli.mp3 --debug)"
     ],
     "additionalDirectories": [
       "C:\\Git Gud\\sesame_ai_refresh"
